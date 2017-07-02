@@ -1,0 +1,55 @@
+{
+  "name": "HelloWorld_React_Webpack_Express_Babel",
+  "version": "0.0.0",
+  "private": false,
+  "license": "see LICENSE file",
+  "description": "A Minimal Hello World for JS Frameworks",
+  "author": "kacobjeith",
+  "bugs": {
+    "url": "https://github.com/OpenHelloWorld/HelloWorld_Webpack_Express_Babel/issues"
+  },
+  "homepage": "https://github.com/OpenHelloWorld/HelloWorld_Webpack_Express_Babel",
+  "engines": {
+    "node": "7.7.4"
+  },
+  "scripts": {
+    "build": "webpack", 
+    "dev": "webpack-dev-server --progress --inline --hot",
+    "start": "babel-node src/server.js",
+    "bs": "webpack && npm run start"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.17.0",
+    "node-sass": "^4.5.0",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-hot-middleware": "^2.13.0",
+    "webpack-node-externals": "^1.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenHelloWorld/React_Redux_Webpack_Express_Babel.git"
+  },
+  "keywords": [
+    "React",
+    "Webpack",
+    "Express",
+    "Babel",
+    "hotloading",
+    "node"
+  ]
+}
